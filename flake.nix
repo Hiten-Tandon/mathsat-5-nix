@@ -25,7 +25,7 @@
         else if stdenv.isLinux && stdenv.isAarch64 then
           "1b7c1wg05870kz4f9r8sfmqsrhxv1qwmajb7gjvsy8bdzlh5h567"
         else
-          "1a8c8mkjjp0as470yj8yl9nzz040ja7grx40ykxip1hh2f8yn6n3";
+          "07cip7j8gbm826fbj128607bpg26893p9vna5ixgqw9bgsr5zjba";
         src = fetchTarball { inherit url sha256; };
       in {
         packages.default = stdenv.mkDerivation (finalAttrs: {
